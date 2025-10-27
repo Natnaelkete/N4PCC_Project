@@ -1,5 +1,5 @@
-import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import * as jwt from 'jsonwebtoken';
+import * as bcrypt from 'bcrypt';
 import config from '../config/index.js';
 import { query } from '../db/connection.js';
 import { randomUUID } from 'crypto';
